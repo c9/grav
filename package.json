@@ -1,3 +1,23 @@
 {
-  "description": ""
+    "name": "grav",
+    "description": "Installs the Grav CMS - A Modern Flat-File CMS.",
+    "version": "0.1.0",
+    "author": "Cloud9",
+    "website": "http://getgrav.org"
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/c9/grav.git"
+    },
+    "plugins": {},
+    "installed": "install.js",
+    "categories": [
+        "cms"
+    ],
+    "screenshots": [
+        "http://cdn.getgrav.org/user/pages/02.blog/cloud-ide-zero-to-code/cloud9-term.png?a75a9344"
+    ],
+    "licenses": [
+        "MIT"
+    ]
 }
