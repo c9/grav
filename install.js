@@ -6,9 +6,7 @@ module.exports = function(session, options){
     
     session.install({
         "name": "Grav",
-        "description": "A Modern Flat-File CMS",
-        "cwd": "~/.c9",
-        "optional": true
+        "description": "A Modern Flat-File CMS"
     }, [
         {
             "ubuntu": ["php5-curl"],
