@@ -12,7 +12,8 @@ module.exports = function(session, options){
     }, [
         {
             "ubuntu": ["php5-curl"],
-            "centos": ["php-curl"]
+            "centos": ["php-curl"],
+            "darwin": ["php-curl"]
         },
         {
             "zip": {
