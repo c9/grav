@@ -10,7 +10,7 @@
         "url": "https://github.com/c9/grav.git"
     },
     "plugins": {},
-    "installed": "install.js",
+    "installer": "install.js",
     "categories": [
         "cms"
     ],
