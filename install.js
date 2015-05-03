@@ -14,7 +14,7 @@ module.exports = function(session, options){
             "darwin": ["php-curl"]
         },
         {
-            "bash": "sudo service apache2 restart"
+            "bash": "sudo service apache2 restart &> /dev/null || true"
         },
         {
             "zip": {
