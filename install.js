@@ -14,6 +14,9 @@ module.exports = function(session, options){
             "darwin": ["php-curl"]
         },
         {
+            "bash": "sudo service apache2 restart"
+        },
+        {
             "zip": {
                 "url": "https://github.com/getgrav/grav-skeleton-blog-site/releases/download/1.0.1/grav-skeleton-blog-site-v1.0.1.zip",
                 "target": "~/workspace/blog-site",
