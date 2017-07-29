@@ -18,7 +18,7 @@ module.exports = function(session, options){
         },
         {
             "zip": {
-                "url": "https://github.com/getgrav/grav-skeleton-blog-site/releases/download/1.0.1/grav-skeleton-blog-site-v1.0.1.zip",
+                "url": "https://getgrav.org/download/skeletons/blog-site/latest",
                 "target": "~/workspace/blog-site",
                 "dir": "grav-skeleton-blog-site"
             }
